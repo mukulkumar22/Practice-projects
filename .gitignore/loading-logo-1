@@ -1,0 +1,60 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+.loader {
+  margin: auto;
+  border: 16px solid #f3f3f3;
+  border-radius: 50%;
+  border-top: 16px solid #3498db;
+  border-bottom-color: green;
+  width: 60px;
+  height: 60px;
+  -webkit-animation: spin 4s linear infinite; 
+  //padding: 50px;
+ 
+}
+
+/* Safari */
+@-webkit-keyframes spin {
+  0% { -webkit-transform: rotate(0deg) scale(1.0);}
+  25%{  border-top-color: #c31414 ;
+        border-bottom-color: #1431c3;
+  }
+  50%{-webkit-transform:rotate(360deg) scale(1.2);}
+  75%{  border-top-color: #d124db ;
+        border-bottom-color: #0c806b;
+  }
+  100% { -webkit-transform: rotate(720deg) scale(1.0); }
+}
+
+
+h1{
+	margin-top:20px;
+	text-align: center;
+	color: #18cccc;
+	font-size: 60px;
+	opacity: 0.8;
+}
+body{
+	background-image: url(data:image/jpeg;base64,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);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+}
+</style>
+</head>
+<body>
+
+<h1 style="margin-top: 150px; margin-bottom: 100px;">This page will load in a infinite time</h1>
+
+<div class="loader">
+	
+</div>
+
+<h1 style="margin-top: 150px">Thanks for waiting</h1>
+
+</body>
+</html>
