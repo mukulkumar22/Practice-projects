@@ -48,7 +48,7 @@ body{
 </head>
 <body>
 
-<h1 style="margin-top: 150px; margin-bottom: 100px;">This page will load in a infinite time</h1>
+<h1 style="margin-top: 150px; margin-bottom: 100px;">This page will load in infinite time</h1>
 
 <div class="loader">
 	
