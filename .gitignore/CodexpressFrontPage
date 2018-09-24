@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Codexpress</title>
+	<style type="text/css">
+		body{
+			margin: 0;
+			padding: 0;
+			background-color: #c11b4f;
+		}
+		ul{
+			padding: 50px;
+			margin: 0;
+			border: 5px solid #fff;
+			display: inline-block;
+			position: absolute;
+			top: 50%;
+			left: 50%;
+			transform: translate(-50%,-50%);
+		}
+		ul li{
+			list-style: none;
+			color: #fff;
+			float: left;
+			font-size: 5em;
+			font-family: 'arial';
+			transition: .9s;
+		}
+		
+		ul:hover li:nth-child(1){
+			transform: rotateY(360deg);
+		}
+		ul:hover li:nth-child(1){
+			transform: rotateY(360deg);
+		}
+		ul:hover li:nth-child(2){
+			transform: rotateY(360deg);
+		}
+		ul:hover li:nth-child(3){
+			transform: rotateY(360deg);
+		}
+		ul:hover li:nth-child(4){
+			transform: rotateY(360deg);
+		}
+		ul:hover li:nth-child(5){
+			transform: rotateX(360deg);
+		}
+		ul:hover li:nth-child(6){
+			transform: rotateY(-360deg);
+		}
+		ul:hover li:nth-child(7){
+			transform: rotateY(-360deg);
+		}
+		ul:hover li:nth-child(8){
+			transform: rotateY(-360deg);
+		}
+		ul:hover li:nth-child(9){
+			transform: rotateY(-360deg);
+		}
+		ul:hover li:nth-child(10){
+			transform: rotateY(-360deg);
+		}
+		ul:hover li:nth-child(5){
+			transition-delay: 0.9s;
+		}
+	</style>
+</head>
+<body>
+	<ul>
+		<li>C</li>
+		<li>O</li>
+		<li>D</li>
+		<li>E</li>
+		<li style="font-size: 5.5em">X</li>
+		<li>P</li>
+		<li>R</li>
+		<li>E</li>
+		<li>S</li>
+		<li>S</li>
+	</ul>
+	<div style="clear: both"></div>
+</body>
+</html>
