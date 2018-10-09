@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Codexpress</title>
+	<title>CodeXpress</title>
 	<style type="text/css">
 		body{
 			margin: 0;
@@ -71,7 +71,7 @@
 		<li>O</li>
 		<li>D</li>
 		<li>E</li>
-		<li style="font-size: 5.5em">X</li>
+		<li style="font-size: 6em">X</li>
 		<li>P</li>
 		<li>R</li>
 		<li>E</li>
